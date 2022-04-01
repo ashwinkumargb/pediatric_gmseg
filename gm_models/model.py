@@ -14,7 +14,7 @@ from keras.layers import Conv2D, Dropout
 from keras.layers import RepeatVector, Reshape
 from keras.layers import BatchNormalization
 from keras.layers import concatenate, GlobalAveragePooling2D
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 
 # Models
 # Tuple of (model, metadata)
@@ -47,7 +47,7 @@ def dice_coef_loss(y_true, y_pred):
     return -dice_coef(y_true, y_pred)
 
 
-def create_model(nfilters, input_size=(200, 200)):
+def create_model(nfilters, input_size=(256, 256)):
     """Create the ASPP model.
 
     :param nfilters: number of filters at each block.
@@ -150,10 +150,5 @@ def create_model(nfilters, input_size=(200, 200)):
                          padding='same', name="predictions")(amort)
 
     model = Model(inputs=[inputs], outputs=[predictions])
-
-    opt = Adam(lr=0.001)
-    model.compile(optimizer=opt,
-                  loss=dice_coef_loss,
-                  metrics=["accuracy"])
 
     return model
