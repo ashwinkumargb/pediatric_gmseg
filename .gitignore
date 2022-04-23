@@ -1,3 +1,4 @@
 /*/
 !gm_models/
 .DS_store
+gm_models/__pycache__/model.cpython-38.pyc
