@@ -89,7 +89,7 @@ def create_directory(base_dir, dir_name):
 # %%
 bmodel = create_model(32)
 opt = Adam(lr=0.001)
-callback = tf.keras.callbacks.EarlyStopping(monitor='val_dice_coef', min_delta=0.01, mode="max", patience=5)
+callback = tf.keras.callbacks.EarlyStopping(monitor='val_dice_coef', min_delta=0.001, mode="max", patience=5)
 bmodel.compile(optimizer=opt,
                 loss=dice_coef_loss,
                 metrics=['accuracy', dice_coef])
