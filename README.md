@@ -22,6 +22,16 @@ The following models and data combinations were trained: (1) Pretrained model wi
 
 ### GM_Models Directory
 
-- *model.py*: Deepseg_gm model using deep dilated CNN as implemented in [https://arxiv.org/abs/1710.01269](https://arxiv.org/abs/1710.01269)
-- *deepseg_gm.py*: Interface API for deepseg_gm model
-- *challenge_model.hdf5*: sct_deepseg_gm challenge model weights
+- [*model.py*](gm_models/model.py): Deepseg_gm model using deep dilated CNN as implemented in [https://arxiv.org/abs/1710.01269](https://arxiv.org/abs/1710.01269)
+- [*deepseg_gm.py*](gm_models/deepseg_gm.py): Interface API for deepseg_gm model
+- [*challenge_model.hdf5*](gm_models/challenge_model.hdf5): sct_deepseg_gm challenge model weights
+- [*gm_model.ipynb*](gm_models/gm_model.ipynb): GM model used for debugging purposes
+
+### Accre_Scripts Directory
+
+- [*gm_aug_model_identify_epochs.py*](accre_scripts/gm_aug_model_identify_epochs.py): GM model to understand number of epochs to train for augmented model
+- [*gm_aug_model_no_pretrain.py*](accre_scripts/gm_aug_model_no_pretrain.py): GM model on augmented data based on early stopping with no pretraining
+- [*gm_aug_model_pretrain.py*](accre_scripts/gm_aug_model_pretrain.py): GM model on augmented data based on early stopping with pretraining
+- [*gm_model_no_pretrain.py*](accre_scripts/gm_model_no_pretrain.py): GM model on non-augmented data based on early stopping with no pretraining
+- [*gm_model.py*](accre_scripts/gm_model.py): GM model on non-augmented data based on early stopping with pretraining
+- Slurm_Scripts: Scripts used to run python files on Vanderbilt ACCRE
