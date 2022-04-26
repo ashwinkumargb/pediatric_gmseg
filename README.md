@@ -14,7 +14,7 @@ The following models and data combinations were trained: (1) Pretrained model wi
 
 ### Base Directory
 
-- *Controls.txt* and *Controls_second.txt*: Subject IDs for the spinal cord scans
+- ![Controls.txt]*Controls.txt* and *Controls_second.txt*: Subject IDs for the spinal cord scans
 - *Subject_ID_Level_Split.xlsx*: Excel document containing what subject IDs were used in respective training, validation, and testing sets. Used to handle skew in the data.
 - *GM_Pre_Processing.ipynb*: Notebook used to pre-process spinal cord scans and conduct GM segmentation
 - D*ata_Creation.ipynb*: Notebook used to create the testing, validation, and testing sets
@@ -23,3 +23,4 @@ The following models and data combinations were trained: (1) Pretrained model wi
 
 - *model.py*: Deepseg_gm model using deep dilated CNN as implemented in [https://arxiv.org/abs/1710.01269](https://arxiv.org/abs/1710.01269)
 - *deepseg_gm.py*: Interface API for deepseg_gm model
+- *challenge_model.hdf5*: sct_deepseg_gm challenge model weights
