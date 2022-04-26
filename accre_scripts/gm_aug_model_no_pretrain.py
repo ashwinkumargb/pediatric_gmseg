@@ -1,3 +1,9 @@
+'''
+Author: Ashwin Kumar (ashwin.kumar@vanderbilt.edu)
+Description: Run GM model on augmented data based on early stopping with no pretraining.
+The model will save the results in a directory, specifically a plot of training and validation DSC,
+DSC mean and std, history, and the model itself trained for that epoch amount.
+'''
 # %%
 from keras.models import load_model
 from model import *
