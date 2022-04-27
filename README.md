@@ -1,6 +1,6 @@
 # Pediatric_GMSeg
 
-Transfer learning to Improve Pediatric Spinal Cord Gray Matter (GM) segmentation. Final project for CS 4267 (Deep Learning, Spring 2022). 
+Transfer learning to Improve Pediatric Spinal Cord Gray Matter (GM) segmentation. Final project for CS 5267 (Deep Learning, Spring 2022). 
 
 ## Summary:
 
