@@ -10,7 +10,7 @@ Current spinal cord GM segmentation methods are trained using adult spinal cord 
 
 The report that details the experiment in more detail can be found [here](Kumar_Transfer_Learning.pdf).
 
-[model_eval/figures/result_summary.PNG]
+[](model_eval/figures/result_summary.PNG)
 
 **## Training Overview**
 
