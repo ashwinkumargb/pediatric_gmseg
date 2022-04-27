@@ -38,4 +38,4 @@ The following models and data combinations were trained: (1) Pretrained model wi
 
 ### Model_Eval Directory
 
-- [*model_eval_combined.py*](model_eval/model_eval_combined.py): Evaluate the different models and plot the testing results from them accordingly. Models were evaluated using various performance metrics.
+- [*model_eval_combined.ipynb*](model_eval/model_eval_combined.ipynb): Evaluate the different models and plot the testing results from them accordingly. Models were evaluated using various performance metrics.
