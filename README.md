@@ -35,3 +35,7 @@ The following models and data combinations were trained: (1) Pretrained model wi
 - [*gm_model_no_pretrain.py*](accre_scripts/gm_model_no_pretrain.py): GM model on non-augmented data based on early stopping with no pretraining
 - [*gm_model.py*](accre_scripts/gm_model.py): GM model on non-augmented data based on early stopping with pretraining
 - Slurm_Scripts: Scripts used to run python files on Vanderbilt ACCRE
+
+### Model_Eval Directory
+
+- [*model_eval_combined.py*](model_eval/model_eval_combined.py): Evaluate the different models and plot the testing results from them accordingly. Models were evaluated using various performance metrics.
