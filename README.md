@@ -14,7 +14,7 @@ The report that details the experiment in more detail can be found [here](Kumar_
 
 The following models and data combinations were trained: (1) Pretrained model without data augmentation, (2) Model (no pretraining) without data augmentation, (3)  Pretrained model with data augmentation, and (4) Model (no pretraining) with data augmentation. The models were trained on the Vanderbilt ACCRE high-performance cluster and the scripts can be found in the accre_scripts directory. The python scripts were designed to take advantage of GPU computing and parallelization for efficiency. ACCRE requires the following python dependency versions to run: Python (v3.6.3), Tensorflow (v1.8.0), Keras (v2.20), CUDA (v11.10).
 
-The datasets used for the models are publicly available [here](https://drive.google.com/drive/folders/1NcCTYn17AmMOj85jrcVG2JA55lBqBiNr?usp=sharing).
+The datasets used for the models are publicly available [here](https://drive.google.com/drive/folders/1ynJaDnXFxwFkrN3FYgqpJUM47zi-frqM?usp=sharing).
 
 ## Repository Structure Explained
 
